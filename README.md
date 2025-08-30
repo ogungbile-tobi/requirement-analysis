@@ -52,26 +52,27 @@ Acceptance criteria are conditions that a feature must meet to be accepted by th
 Here are examples of acceptance criteria for a booking system's **checkout** feature, using the Given-When-Then format, which defines preconditions, actions, and expected results: 
 
 1.  **Payment Initiation:**
--     Given: a user has a confirmed booking and is logged in,
--     When: they click on the "Proceed to Checkout" button,
--     Then: they should be directed to the checkout page with their booking details pre-filled.
+- Given: a user has a confirmed booking and is logged in,
+- When: they click on the "Proceed to Checkout" button,
+- Then: they should be directed to the checkout page with their booking details pre-filled.
 
 2.  **Payment Method Selection:**
--     Given: the user is on the checkout page,
--     When: they select a payment method (e.g., credit card, bank transfer),
--     Then: the appropriate payment form fields for that method should be displayed.
+- Given: the user is on the checkout page,
+- When: they select a payment method (e.g., credit card, bank transfer),
+- Then: the appropriate payment form fields for that method should be displayed.
 
 3.  **Successful Payment Processing:**
--     Given: the user has entered valid payment details,
--     When: they click the "Confirm Payment" or "Pay Now" button,
--     Then: the system should process the payment, and the booking status should be updated to "Paid".
+- Given: the user has entered valid payment details,
+- When: they click the "Confirm Payment" or "Pay Now" button,
+- Then: the system should process the payment, and the booking status should be updated to "Paid".
 
 4.  **Confirmation and Notification:**
--     Given: the payment is successfully processed,
--     When: the checkout process is complete,
--     Then: the user should see a confirmation screen, and an email with the booking confirmation and payment receipt should be sent to their registered email address.
+- Given: the payment is successfully processed,
+- When: the checkout process is complete,
+- Then: the user should see a confirmation screen, and an email with the booking confirmation and payment receipt should be sent to their registered email address.
 
 5.  **Error Handling (Incorrect Details):**
--     Given: the user has entered invalid payment details,
--     When: they click the "Confirm Payment" button,
--     Then: an error message should be displayed, indicating the specific issue, and the payment should not be processed. 
+- Given: the user has entered invalid payment details,
+- When: they click the "Confirm Payment" button,
+- Then: an error message should be displayed, indicating the specific issue, and the payment should not be processed. 
+
