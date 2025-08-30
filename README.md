@@ -21,3 +21,12 @@ Requirement Analysis is a critical phase in the software development lifecycle (
 - **Requirement Documentation:** Recording all identified requirements clearly, precisely, and unambiguously for future use.
 - **Requirement Analysis and Modeling:** Examining, structuring, and representing requirements using models for better understanding.
 - **Requirement Validation:** Ensuring documented requirements are correct, complete, consistent, and meet user needs.
+
+## Types of Requirements
+### Functional Requirements
+- **Definition:** Describe what the system should do.
+- **Examples:** User authentication, property search, booking system, user registration.
+### Non-functional Requirements
+- **Definition:** Describe how the system should perform.
+- **Examples:** Performance, security, scalability, usability, reliability.
+
